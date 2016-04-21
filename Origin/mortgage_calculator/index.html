@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mortgage Calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="index.js"></script>
+</head>
+<body>
+	<h3>Mortgage Calculator</h3>
+	<div class="form">
+		<div class="row">
+			<div class="label">
+				<label for="loan-balance">Loan-balance</label>
+			</div>
+			<div class="input">
+				<input type="text" id="loan-balance">
+			</div>
+		</div >
+		<div class="row">
+			<div class="label">
+				<label for="interest-rate">Interest Rate (%)</label>
+			</div>
+			<div class="input">
+				<input type="text" id="interest-rate">
+			</div>
+		</div>
+		<div class="row">
+			<div class="label">
+				<label for="loan-term">Loan Term (years)</label>
+			</div>
+			<div class="input">
+				<input type="text" id="loan-term">
+			</div>
+		</div>
+		<div class="row">
+			<div class="label">
+				<label for="period">Period</label>
+			</div>
+			<div>
+				<select id="period">
+				</select>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<button onclick="showPaymentForPeriod()">Calculate</button>
+	</div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+*{
+	background-color: grey;
+	font-family: serif;
+	color: white;
+}
+
+.label {
+	width:150px;
+}
+
+.input {
+	width:65%;
+}
+
+.row {
+	width:100%;
+	display:flex;
+	padding:10px;
+}
+
+.form{
+	border:solid;
+	border-width:1px;
+}
